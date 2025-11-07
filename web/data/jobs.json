@@ -1,0 +1,149 @@
+[
+  {
+    "id": "29f196a6-0798-4512-8417-96645af82f6c",
+    "postedAt": "2025-11-07T17:43:15.690Z",
+    "title": "Sitecore Developer",
+    "company": "SaanLogics",
+    "location": "Cheshire",
+    "remote": "Remote",
+    "type": "Full-time",
+    "url": "https://www.google.com",
+    "tags": [
+      "Sitecore"
+    ],
+    "description": "We are looking for a passionate Sitecore developer experienced in XM, XP with hands on C# .NET background"
+  },
+  {
+    "id": "xmcloud-dev-001",
+    "title": "Sitecore XM Cloud Developer",
+    "company": "Acme Digital",
+    "location": "Remote - US",
+    "remote": "Remote",
+    "type": "Full-time",
+    "postedAt": "2025-10-20T08:00:00.000Z",
+    "url": "https://example.com/jobs/xmcloud-developer",
+    "tags": [
+      "Sitecore",
+      "XM Cloud",
+      "Next.js",
+      "TypeScript"
+    ],
+    "description": "Build headless experiences on Sitecore XM Cloud with Next.js."
+  },
+  {
+    "id": "xmcloud-architect-002",
+    "title": "Sitecore Solution Architect (XM Cloud)",
+    "company": "Northstar Consulting",
+    "location": "Toronto, ON",
+    "remote": "Hybrid",
+    "type": "Full-time",
+    "postedAt": "2025-10-15T08:00:00.000Z",
+    "url": "https://example.com/jobs/sitecore-architect",
+    "tags": [
+      "Architecture",
+      "XM Cloud",
+      "Composability",
+      "DevOps"
+    ],
+    "description": "Own solution design for composable Sitecore on XM Cloud."
+  },
+  {
+    "id": "xmcloud-devops-003",
+    "title": "DevOps Engineer (Sitecore XM Cloud)",
+    "company": "BlueWave Tech",
+    "location": "London, UK",
+    "remote": "Hybrid",
+    "type": "Full-time",
+    "postedAt": "2025-10-10T08:00:00.000Z",
+    "url": "https://example.com/jobs/devops-xmcloud",
+    "tags": [
+      "Azure",
+      "CI/CD",
+      "Terraform",
+      "Sitecore"
+    ],
+    "description": "Own CI/CD, infra-as-code, and observability for XM Cloud."
+  },
+  {
+    "id": "xmcloud-fe-004",
+    "title": "Senior Frontend Engineer (Next.js + XM Cloud)",
+    "company": "Pixel & Co.",
+    "location": "Berlin, DE",
+    "remote": "Remote",
+    "type": "Contract",
+    "postedAt": "2025-10-05T08:00:00.000Z",
+    "url": "https://example.com/jobs/frontend-next-sitecore",
+    "tags": [
+      "Next.js",
+      "Tailwind",
+      "JSS",
+      "GraphQL"
+    ],
+    "description": "Ship performant sites consuming XM Cloud content via JSS/GraphQL."
+  },
+  {
+    "id": "xmcloud-content-005",
+    "title": "Content Author (Sitecore XM Cloud)",
+    "company": "Bright Market",
+    "location": "Austin, TX",
+    "remote": "Onsite",
+    "type": "Part-time",
+    "postedAt": "2025-10-01T08:00:00.000Z",
+    "url": "https://example.com/jobs/content-author-xmcloud",
+    "tags": [
+      "Content",
+      "Personalization",
+      "Workflows"
+    ],
+    "description": "Author and optimize content in XM Cloud with workflows."
+  },
+  {
+    "id": "xmcloud-techlead-006",
+    "title": "Technical Lead (Sitecore XM Cloud)",
+    "company": "Delta Interactive",
+    "location": "Remote - EU",
+    "remote": "Remote",
+    "type": "Full-time",
+    "postedAt": "2025-09-28T08:00:00.000Z",
+    "url": "https://example.com/jobs/tech-lead-xmcloud",
+    "tags": [
+      "Leadership",
+      "Sitecore",
+      "Next.js",
+      "Azure"
+    ],
+    "description": "Lead engineering squads delivering composable experiences on XM Cloud."
+  },
+  {
+    "id": "xmcloud-qa-007",
+    "title": "QA Engineer (Headless, XM Cloud)",
+    "company": "Silverline Labs",
+    "location": "Bengaluru, IN",
+    "remote": "Hybrid",
+    "type": "Full-time",
+    "postedAt": "2025-09-20T08:00:00.000Z",
+    "url": "https://example.com/jobs/qa-xmcloud",
+    "tags": [
+      "Playwright",
+      "API Testing",
+      "Accessibility"
+    ],
+    "description": "Own quality across headless Sitecore frontends and APIs."
+  },
+  {
+    "id": "xmcloud-pm-008",
+    "title": "Product Manager (Digital Experience, Sitecore)",
+    "company": "Visionary CX",
+    "location": "New York, NY",
+    "remote": "Hybrid",
+    "type": "Full-time",
+    "postedAt": "2025-09-18T08:00:00.000Z",
+    "url": "https://example.com/jobs/pm-sitecore",
+    "tags": [
+      "DXP",
+      "Roadmaps",
+      "Analytics"
+    ],
+    "description": "Drive roadmap for composable DX with Sitecore XM Cloud."
+  }
+]

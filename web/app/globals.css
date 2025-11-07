@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom base styles */
+:root {
+  --foreground: 0 0% 10%;
+  --background: 0 0% 100%;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground: 0 0% 98%;
+    --background: 0 0% 6%;
+  }
+}
+
+body {
+  color: hsl(var(--foreground));
+  background: hsl(var(--background));
+}
+
