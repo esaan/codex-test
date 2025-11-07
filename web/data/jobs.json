@@ -1,19 +1,5 @@
 [
   {
-    "id": "29f196a6-0798-4512-8417-96645af82f6c",
-    "postedAt": "2025-11-07T17:43:15.690Z",
-    "title": "Sitecore Developer",
-    "company": "SaanLogics",
-    "location": "Cheshire",
-    "remote": "Remote",
-    "type": "Full-time",
-    "url": "https://www.google.com",
-    "tags": [
-      "Sitecore"
-    ],
-    "description": "We are looking for a passionate Sitecore developer experienced in XM, XP with hands on C# .NET background"
-  },
-  {
     "id": "xmcloud-dev-001",
     "title": "Sitecore XM Cloud Developer",
     "company": "Acme Digital",
