@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import Link from "next/link";
 import type { Job } from "@/lib/types";
 
 type Props = {
@@ -228,13 +229,11 @@ export default function JobsExplorer({ jobs, actions }: Props & { actions?: Acti
               </div>
 
               <div className="mt-4">
-                <a
-                  href={j.url}
-                  target="_blank"
-                  rel="noreferrer"
+                <Link
+                  href={`/jobs/${j.id}`}
                   className="inline-flex items-center gap-1 rounded-lg bg-blue-600 px-3 py-1.5 text-sm font-medium text-white shadow-sm transition hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-700"
                 >
-                  View job
+                  View details
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
@@ -243,7 +242,7 @@ export default function JobsExplorer({ jobs, actions }: Props & { actions?: Acti
                   >
                     <path d="M5 10a1 1 0 011-1h5.586L9.293 6.707a1 1 0 111.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 11-1.414-1.414L11.586 11H6a1 1 0 01-1-1z" />
                   </svg>
-                </a>
+                </Link>
                 <button
                   onClick={async () => {
                     try {
