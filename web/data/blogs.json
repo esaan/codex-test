@@ -1,0 +1,49 @@
+[
+  {
+    "id": "a18405b4-5971-41d0-b9cd-30cb2c584b4b",
+    "title": "new blog",
+    "slug": "new-blog",
+    "content": "testing the blog",
+    "publishedAt": "2025-11-10T21:38:00.000Z",
+    "tags": [
+      "blog"
+    ],
+    "author": "Harsh"
+  },
+  {
+    "id": "e2e235e6-c8d2-41dc-a71c-5fb8035cdade",
+    "title": "Graph QL",
+    "slug": "graph-ql",
+    "content": "testing Okay.\nedited.",
+    "publishedAt": "2025-11-10T21:28:00.000Z",
+    "updatedAt": "2025-11-10T21:38:14.296Z",
+    "tags": [
+      "GraphQL"
+    ],
+    "author": "Santosh"
+  },
+  {
+    "id": "2665d437-d49d-40c0-a731-4fea66cac405",
+    "title": "Sitecore XM Cloud",
+    "slug": "sitecore-xm-cloud",
+    "content": "What is Sitecore XM Cloud?\nSitecore XM Cloud is Software-as-Service composable cloud-based offering from Sitecore. \nThe licensing differs from traditional Sitecore XM/XP, Sitecore Headless offerings.",
+    "publishedAt": "2025-11-10T20:04:15.409Z",
+    "updatedAt": "2025-11-10T20:04:15.409Z",
+    "tags": [
+      "Sitecore"
+    ],
+    "author": "Jose"
+  },
+  {
+    "id": "d68ae290-ac5e-44a3-854a-5018c503ceaa",
+    "title": "GraphQL",
+    "slug": "graphql",
+    "content": "What is GraphQL and how is it better than REST? \nGraphQL is a powerful query language and on the contrary REST over fetch or under fetch the data and does not have an option to perform complex queries.",
+    "publishedAt": "2025-11-10T19:57:20.458Z",
+    "updatedAt": "2025-11-10T19:57:20.458Z",
+    "tags": [
+      "Graphql"
+    ],
+    "author": "Santosh Ekbote"
+  }
+]

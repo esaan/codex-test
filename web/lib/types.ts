@@ -14,3 +14,23 @@ export interface Job {
   description?: string;
 }
 
+export interface Blog {
+  id: string;
+  title: string;
+  slug: string;
+  content: string;
+  publishedAt: string; // ISO date
+  updatedAt?: string; // ISO date
+  tags: string[];
+  author?: string;
+  excerpt?: string;
+}
+
+export interface Review {
+  id: string;
+  blogId: string;
+  rating: 1 | 2 | 3 | 4 | 5;
+  comment: string;
+  author?: string;
+  createdAt: string; // ISO date
+}

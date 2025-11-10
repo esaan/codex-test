@@ -1,0 +1,18 @@
+[
+  {
+    "id": "199b21d6-ebd8-47cb-81c2-66e363a657dd",
+    "blogId": "2665d437-d49d-40c0-a731-4fea66cac405",
+    "rating": 4,
+    "comment": "its good intro to Sitecore XM Cloud.",
+    "author": "user 1",
+    "createdAt": "2025-11-10T20:57:54.970Z"
+  },
+  {
+    "id": "f9dd2623-302b-4f52-bb97-5963626531d0",
+    "blogId": "a18405b4-5971-41d0-b9cd-30cb2c584b4b",
+    "rating": 5,
+    "comment": "good one.",
+    "author": "user1",
+    "createdAt": "2025-11-10T21:41:16.430Z"
+  }
+]
