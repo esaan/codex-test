@@ -13,9 +13,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body>
-        <header className="border-b bg-white/70 backdrop-blur dark:bg-slate-900/50">
+    <html lang="en" className="dark">
+      <body className="min-h-screen bg-slate-950 text-slate-100 antialiased">
+        <header className="border-b border-slate-800 bg-slate-900/80 backdrop-blur">
           <nav className="mx-auto flex max-w-5xl items-center justify-between p-4">
             <Link href="/" className="text-lg font-semibold tracking-tight">Codex Test</Link>
             <div className="space-x-4 text-sm">

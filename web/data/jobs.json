@@ -1,5 +1,19 @@
 [
   {
+    "id": "72313021-f17c-48cf-99c2-026381f72681",
+    "postedAt": "2025-11-13T16:38:51.836Z",
+    "title": "ContentStack CMS",
+    "company": "Capgemini",
+    "location": "Orlando, FL",
+    "remote": "Remote",
+    "type": "Full-time",
+    "url": "https://www.linkedin.com/feed/",
+    "tags": [
+      "contentstack"
+    ],
+    "description": "Build website using contentstack CMS"
+  },
+  {
     "id": "xmcloud-dev-001",
     "title": "Sitecore XM Cloud Developer",
     "company": "Acme Digital",
