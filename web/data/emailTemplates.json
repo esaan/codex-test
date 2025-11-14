@@ -1,0 +1,120 @@
+[
+  {
+    "id": "community-newsletter",
+    "name": "Community Pulse Newsletter",
+    "subject": "What's new across FictionalHealthCare",
+    "preheader": "Highlights, stories, and upcoming events curated for your inbox.",
+    "purpose": "Monthly digest covering new services, community impact stories, and care tips.",
+    "audience": "Patients & community subscribers",
+    "frequency": "Monthly",
+    "tags": ["Newsletter", "Awareness"],
+    "accentColor": "#0ea5e9",
+    "heroTone": "sunrise",
+    "contentBlocks": [
+      {
+        "title": "Inside this issue",
+        "body": "Cardiac robotics expansion, behavioral health hub opening, and free screenings across the region."
+      },
+      {
+        "title": "From our experts",
+        "body": "Chief Medical Officer shares how data is shaping personalized care and what whole-person health means for next year.",
+        "buttonLabel": "Read the full article",
+        "buttonUrl": "/news/cardiac-robotics-expansion"
+      },
+      {
+        "title": "Community spotlight",
+        "body": "Lakeview volunteer team packed 1,200 wellness kits for neighborhood schools."
+      }
+    ],
+    "footerNote": "You receive this newsletter because you opted in to FictionalHealthCare updates.",
+    "metricsFocus": ["Open rate", "Site traffic"]
+  },
+  {
+    "id": "service-announcement",
+    "name": "Service Launch Announcement",
+    "subject": "New virtual urgent care available daily",
+    "preheader": "See how to access board-certified clinicians in minutes.",
+    "purpose": "Drive awareness of newly expanded service line with clear action steps.",
+    "audience": "Primary care patients & MyChart users",
+    "frequency": "Ad hoc",
+    "tags": ["Announcement", "Service Update"],
+    "accentColor": "#f97316",
+    "heroTone": "twilight",
+    "contentBlocks": [
+      {
+        "title": "Virtual urgent care is live",
+        "body": "Connect with emergency-trained clinicians for minor illnesses, prescriptions, and care guidance every day 7a-11p.",
+        "buttonLabel": "Start a visit",
+        "buttonUrl": "/services/virtual-urgent-care"
+      },
+      {
+        "title": "When to choose virtual care",
+        "body": "Cold/flu symptoms, rashes, medication questions, and more can be addressed from the comfort of home."
+      }
+    ],
+    "footerNote": "Copays vary by insurance. Visits available to Florida residents age 5+.",
+    "metricsFocus": ["Click-through rate", "Visit volume"]
+  },
+  {
+    "id": "event-series",
+    "name": "Event Series Invitation",
+    "subject": "Reserve your spot for winter wellness classes",
+    "preheader": "Prenatal tours, diabetes kitchen labs, and mindfulness mornings await.",
+    "purpose": "Promote recurring classes/events with RSVP focus.",
+    "audience": "Community members & employers",
+    "frequency": "Quarterly",
+    "tags": ["Events", "Engagement"],
+    "accentColor": "#16a34a",
+    "heroTone": "leaf",
+    "contentBlocks": [
+      {
+        "title": "Featured classes",
+        "body": "Prenatal basics + tour, diabetes nutrition lab, Stop the Bleed training, and Mindful Mondays in the garden."
+      },
+      {
+        "title": "Save your seat",
+        "body": "Spots fill fast-secure attendance in one tap.",
+        "buttonLabel": "View all classes",
+        "buttonUrl": "/events"
+      },
+      {
+        "title": "Bring a friend",
+        "body": "Forward to a colleague or loved one and attend together."
+      }
+    ],
+    "footerNote": "Need accommodations? Reply to this email so we can support you.",
+    "metricsFocus": ["RSVPs", "Forward rate"]
+  },
+  {
+    "id": "gratitude-followup",
+    "name": "Care Experience Follow-up",
+    "subject": "Thank you for trusting our teams",
+    "preheader": "Share feedback and discover resources for your next visit.",
+    "purpose": "Close the loop post-visit with gratitude, survey CTA, and helpful resources.",
+    "audience": "Recent inpatients & caregivers",
+    "frequency": "Automated post-discharge",
+    "tags": ["Experience", "Survey"],
+    "accentColor": "#6366f1",
+    "heroTone": "midnight",
+    "contentBlocks": [
+      {
+        "title": "We appreciate you",
+        "body": "Our care teams were honored to be part of your health journey. We hope you felt heard, supported, and confident."
+      },
+      {
+        "title": "Tell us how we did",
+        "body": "Your feedback helps us improve everything from wait times to meal menus.",
+        "buttonLabel": "Complete 3-minute survey",
+        "buttonUrl": "/feedback"
+      },
+      {
+        "title": "What's next",
+        "body": "Schedule follow-up appointments, review discharge instructions, or message your care team anytime in MyChart."
+      }
+    ],
+    "footerNote": "If you have clinical concerns, call your care team directly or dial 911 for emergencies.",
+    "metricsFocus": ["Survey completion", "Repeat visits"]
+  }
+]
+
+

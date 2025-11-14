@@ -38,6 +38,12 @@ export default function RootLayout({
                 News & Articles
               </Link>
               <Link
+                href="/email-marketing"
+                className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
+              >
+                Email Marketing
+              </Link>
+              <Link
                 href="/contact"
                 className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
               >
