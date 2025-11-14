@@ -7,9 +7,9 @@ import doctorsData from "@/data/doctors.json";
 const doctors = doctorsData as Doctor[];
 
 export const metadata: Metadata = {
-  title: "Find Doctors | BayCare Inspired Search",
+  title: "Find Doctors | FictionalHealthCareInspired Search",
   description:
-    "Search BayCare doctors and specialists by specialty, location, or availability.",
+    "Search FictionalHealthCaredoctors and specialists by specialty, location, or availability.",
 };
 
 export default function DoctorsPage() {
