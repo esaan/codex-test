@@ -1,0 +1,162 @@
+[
+  {
+    "id": "downtown-care-center",
+    "name": "Downtown Care Center",
+    "shortDescription": "24/7 emergency, urgent, and primary care hub in the heart of Clearwater.",
+    "facilityType": "Hospital",
+    "careTypes": ["Emergency", "Urgent", "Primary"],
+    "specialties": ["Cardiology", "Imaging", "Orthopedics"],
+    "address": {
+      "line1": "100 Bayside Blvd",
+      "city": "Clearwater",
+      "state": "FL",
+      "zip": "33755"
+    },
+    "phone": "(555) 100-2000",
+    "hours": "Open 24 hours",
+    "coordinates": { "lat": 27.9656, "lng": -82.8006 },
+    "acceptingNewPatients": true,
+    "virtualVisits": true,
+    "featured": true
+  },
+  {
+    "id": "midtown-specialty-campus",
+    "name": "Midtown Specialty Campus",
+    "shortDescription": "Advanced specialty clinics with on-site imaging and lab services.",
+    "facilityType": "Specialty Clinic",
+    "careTypes": ["Specialty", "Surgical"],
+    "specialties": ["Neuroscience", "Spine", "Pain Management"],
+    "address": {
+      "line1": "455 Meridian Ave",
+      "city": "Tampa",
+      "state": "FL",
+      "zip": "33606"
+    },
+    "phone": "(555) 234-9000",
+    "hours": "Mon-Fri 7a-7p",
+    "coordinates": { "lat": 27.945, "lng": -82.459 },
+    "acceptingNewPatients": false,
+    "virtualVisits": true,
+    "featured": false
+  },
+  {
+    "id": "stpetersburg-heart-and-vascular",
+    "name": "St. Petersburg Heart & Vascular",
+    "shortDescription": "Accredited heart institute with cath labs and rehab gym.",
+    "facilityType": "Heart Institute",
+    "careTypes": ["Specialty", "Diagnostics"],
+    "specialties": ["Cardiology", "Cardiac Rehab", "Diagnostics"],
+    "address": {
+      "line1": "800 Beacon St",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "zip": "33701"
+    },
+    "phone": "(555) 411-1212",
+    "hours": "Mon-Fri 6a-6p",
+    "coordinates": { "lat": 27.773, "lng": -82.64 },
+    "acceptingNewPatients": true,
+    "virtualVisits": false,
+    "featured": true
+  },
+  {
+    "id": "north-bay-primary",
+    "name": "North Bay Primary Care",
+    "shortDescription": "Family medicine, pediatrics, and women's health with same-day visits.",
+    "facilityType": "Primary Care",
+    "careTypes": ["Primary", "Pediatrics"],
+    "specialties": ["Family Medicine", "Pediatrics", "Women's Health"],
+    "address": {
+      "line1": "2250 Palm Harbor Blvd",
+      "city": "Palm Harbor",
+      "state": "FL",
+      "zip": "34683"
+    },
+    "phone": "(555) 330-8899",
+    "hours": "Mon-Fri 7a-7p, Sat 8a-noon",
+    "coordinates": { "lat": 28.0836, "lng": -82.7536 },
+    "acceptingNewPatients": true,
+    "virtualVisits": true,
+    "featured": false
+  },
+  {
+    "id": "suncoast-imaging-center",
+    "name": "Suncoast Imaging & Diagnostics",
+    "shortDescription": "Same-day MRI, CT, ultrasound, and mammography with subspecialty radiologists.",
+    "facilityType": "Diagnostics",
+    "careTypes": ["Diagnostics"],
+    "specialties": ["Imaging", "Mammography"],
+    "address": {
+      "line1": "601 Coastal Hwy",
+      "city": "Largo",
+      "state": "FL",
+      "zip": "33770"
+    },
+    "phone": "(555) 880-0400",
+    "hours": "Mon-Sat 6a-9p",
+    "coordinates": { "lat": 27.909, "lng": -82.787 },
+    "acceptingNewPatients": true,
+    "virtualVisits": false,
+    "featured": false
+  },
+  {
+    "id": "riverside-urgent-care",
+    "name": "Riverside Urgent Care",
+    "shortDescription": "Walk-in care for injuries, illnesses, on-site x-ray and labs.",
+    "facilityType": "Urgent Care",
+    "careTypes": ["Urgent"],
+    "specialties": ["Urgent Care", "Occupational Health"],
+    "address": {
+      "line1": "90 Riverstone Way",
+      "city": "Brandon",
+      "state": "FL",
+      "zip": "33510"
+    },
+    "phone": "(555) 655-2233",
+    "hours": "Daily 8a-8p",
+    "coordinates": { "lat": 27.937, "lng": -82.285 },
+    "acceptingNewPatients": true,
+    "virtualVisits": true,
+    "featured": false
+  },
+  {
+    "id": "lakeview-cancer-center",
+    "name": "Lakeview Cancer Center",
+    "shortDescription": "Multidisciplinary oncology with infusion, radiation, and support services.",
+    "facilityType": "Cancer Center",
+    "careTypes": ["Specialty"],
+    "specialties": ["Medical Oncology", "Radiation Oncology", "Infusion"],
+    "address": {
+      "line1": "300 Lakeview Dr",
+      "city": "Lakeland",
+      "state": "FL",
+      "zip": "33801"
+    },
+    "phone": "(555) 712-4500",
+    "hours": "Mon-Fri 7a-6p",
+    "coordinates": { "lat": 28.039, "lng": -81.949 },
+    "acceptingNewPatients": false,
+    "virtualVisits": true,
+    "featured": true
+  },
+  {
+    "id": "coastal-rehab-and-therapy",
+    "name": "Coastal Rehab & Therapy",
+    "shortDescription": "Physical therapy, aquatic rehab, and sports performance training.",
+    "facilityType": "Rehabilitation",
+    "careTypes": ["Rehab"],
+    "specialties": ["Physical Therapy", "Sports Medicine"],
+    "address": {
+      "line1": "1420 Shoreline Dr",
+      "city": "Sarasota",
+      "state": "FL",
+      "zip": "34236"
+    },
+    "phone": "(555) 267-4400",
+    "hours": "Mon-Fri 6a-8p, Sat 8a-2p",
+    "coordinates": { "lat": 27.318, "lng": -82.549 },
+    "acceptingNewPatients": true,
+    "virtualVisits": false,
+    "featured": false
+  }
+]

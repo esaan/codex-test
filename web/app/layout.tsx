@@ -26,6 +26,24 @@ export default function RootLayout({
                 Home
               </Link>
               <Link
+                href="/doctors"
+                className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
+              >
+                Find A Provider
+              </Link>
+              <Link
+                href="/services"
+                className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
+              >
+                Services
+              </Link>
+              <Link
+                href="/locations"
+                className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
+              >
+                Locations
+              </Link>
+              <Link
                 href="/blogs"
                 className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
               >
@@ -36,6 +54,12 @@ export default function RootLayout({
                 className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
               >
                 Jobs
+              </Link>
+              <Link
+                href="/events"
+                className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
+              >
+                Events
               </Link>
               <Link
                 href="/about"

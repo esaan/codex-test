@@ -1,0 +1,244 @@
+[
+  {
+    "id": "cardiology-care",
+    "name": "Cardiology & Heart Services",
+    "tagline": "Advanced diagnostics, cath lab access, and rehab for every stage of heart care.",
+    "summary": "Comprehensive preventive, interventional, and surgical heart care delivered by multidisciplinary teams.",
+    "careCategory": "Specialty",
+    "serviceLines": [
+      "Preventive Cardiology",
+      "Electrophysiology",
+      "Heart Failure",
+      "Cardiac Rehab"
+    ],
+    "locationsServed": [
+      "Clearwater",
+      "Tampa",
+      "St. Petersburg"
+    ],
+    "appointmentOptions": [
+      "In-person",
+      "Virtual",
+      "Second Opinion"
+    ],
+    "highlights": [
+      "Same-week consults for urgent referrals",
+      "Advanced imaging including 3D echo and cardiac MRI",
+      "Coordinated recovery plans with remote monitoring"
+    ],
+    "contactPhone": "(555) 410-2020",
+    "referralRequired": true,
+    "featured": true
+  },
+  {
+    "id": "primary-care",
+    "name": "Primary Care & Family Medicine",
+    "tagline": "Personalized preventive care for adults and children with same-day access.",
+    "summary": "Board-certified family medicine and internal medicine teams providing wellness, chronic condition management, and coordination with specialists.",
+    "careCategory": "Primary",
+    "serviceLines": [
+      "Annual Wellness",
+      "Chronic Care",
+      "Pediatrics",
+      "Women's Health"
+    ],
+    "locationsServed": [
+      "Palm Harbor",
+      "Clearwater",
+      "Lakeland"
+    ],
+    "appointmentOptions": [
+      "In-person",
+      "Virtual",
+      "After-hours nurse line"
+    ],
+    "highlights": [
+      "Guaranteed same-week access for established patients",
+      "Integrated behavioral health screening",
+      "Online prescription renewals within 24 hours"
+    ],
+    "contactPhone": "(555) 120-3300",
+    "referralRequired": false,
+    "featured": true
+  },
+  {
+    "id": "oncology",
+    "name": "Cancer & Infusion Services",
+    "tagline": "Whole-person oncology with clinical trials, infusion, and survivorship support.",
+    "summary": "Medical, surgical, and radiation oncologists work together with nurse navigators, dietitians, and social workers to guide each patient.",
+    "careCategory": "Specialty",
+    "serviceLines": [
+      "Medical Oncology",
+      "Radiation Oncology",
+      "Infusion Therapy",
+      "Clinical Trials"
+    ],
+    "locationsServed": [
+      "Lakeland",
+      "Tampa"
+    ],
+    "appointmentOptions": [
+      "In-person",
+      "Virtual"
+    ],
+    "highlights": [
+      "Nurse navigator assigned within 48 hours",
+      "Same-site labs, imaging, and pharmacy",
+      "Dedicated survivorship and caregiver classes"
+    ],
+    "contactPhone": "(555) 712-4500",
+    "referralRequired": true,
+    "featured": true
+  },
+  {
+    "id": "orthopedics-sports",
+    "name": "Orthopedics & Sports Medicine",
+    "tagline": "From weekend injuries to joint replacements, keep moving with confidence.",
+    "summary": "Orthopedic surgeons, sports medicine physicians, and rehab therapists offering same-day injury clinics and advanced surgical options.",
+    "careCategory": "Specialty",
+    "serviceLines": [
+      "Joint Replacement",
+      "Sports Injury Clinic",
+      "Spine Care",
+      "Physical Therapy"
+    ],
+    "locationsServed": [
+      "Tampa",
+      "Bradenton",
+      "Sarasota"
+    ],
+    "appointmentOptions": [
+      "In-person",
+      "Virtual",
+      "Walk-in injury clinic"
+    ],
+    "highlights": [
+      "Rapid MRI scheduling within 24 hours",
+      "Robotic-assisted joint replacement",
+      "Return-to-play programs for athletes"
+    ],
+    "contactPhone": "(555) 234-7788",
+    "referralRequired": false,
+    "featured": false
+  },
+  {
+    "id": "behavioral-health",
+    "name": "Behavioral Health & Wellness",
+    "tagline": "Confidential counseling, psychiatry, and group programs for all ages.",
+    "summary": "Integrated behavioral health with outpatient therapy, medication management, intensive outpatient programs, and digital tools.",
+    "careCategory": "Support",
+    "serviceLines": [
+      "Outpatient Therapy",
+      "Psychiatry",
+      "Intensive Outpatient",
+      "Digital CBT"
+    ],
+    "locationsServed": [
+      "Clearwater",
+      "Remote"
+    ],
+    "appointmentOptions": [
+      "In-person",
+      "Virtual",
+      "Digital App"
+    ],
+    "highlights": [
+      "Evening and weekend appointments available",
+      "Coordinated care with primary and specialty teams",
+      "Crisis support line answered 24/7"
+    ],
+    "contactPhone": "(555) 611-0099",
+    "referralRequired": false,
+    "featured": false
+  },
+  {
+    "id": "women-maternity",
+    "name": "Women's & Maternity Services",
+    "tagline": "Personalized obstetrics, midwifery, and pelvic health services.",
+    "summary": "High-risk obstetrics, certified nurse midwives, lactation consultants, and pelvic floor therapy in one coordinated program.",
+    "careCategory": "Primary",
+    "serviceLines": [
+      "Prenatal Care",
+      "Labor & Delivery",
+      "Pelvic Health",
+      "Lactation Support"
+    ],
+    "locationsServed": [
+      "Clearwater",
+      "St. Petersburg"
+    ],
+    "appointmentOptions": [
+      "In-person",
+      "Virtual",
+      "Hospital tours"
+    ],
+    "highlights": [
+      "Level III NICU onsite",
+      "Birth plan workshops and tours weekly",
+      "Postpartum home visit option"
+    ],
+    "contactPhone": "(555) 420-1100",
+    "referralRequired": false,
+    "featured": true
+  },
+  {
+    "id": "digestive-health",
+    "name": "Digestive Health & Endoscopy",
+    "tagline": "Comprehensive GI evaluations with advanced endoscopy suites.",
+    "summary": "Gastroenterologists, hepatologists, and dietitians collaborating for screenings, complex procedures, and nutrition management.",
+    "careCategory": "Specialty",
+    "serviceLines": [
+      "IBD Clinic",
+      "Advanced Endoscopy",
+      "Hepatology",
+      "Nutrition"
+    ],
+    "locationsServed": [
+      "Tampa",
+      "Lakeland",
+      "Clearwater"
+    ],
+    "appointmentOptions": [
+      "In-person",
+      "Virtual"
+    ],
+    "highlights": [
+      "Open-access colonoscopy scheduling",
+      "Capsule endoscopy and ERCP on site",
+      "Dietitians available for same-day consults"
+    ],
+    "contactPhone": "(555) 678-9012",
+    "referralRequired": true,
+    "featured": false
+  },
+  {
+    "id": "rehab-therapy",
+    "name": "Rehabilitation & Therapy",
+    "tagline": "Physical, occupational, and speech therapy with specialty programs.",
+    "summary": "Therapists deliver personalized plans including aquatic therapy, neuro rehab, and hand therapy, coordinated with referring physicians.",
+    "careCategory": "Support",
+    "serviceLines": [
+      "Physical Therapy",
+      "Occupational Therapy",
+      "Speech Therapy",
+      "Aquatic Therapy"
+    ],
+    "locationsServed": [
+      "Sarasota",
+      "Lakeland",
+      "Clearwater"
+    ],
+    "appointmentOptions": [
+      "In-person",
+      "Virtual home exercise coaching"
+    ],
+    "highlights": [
+      "Direct-access evaluations (no referral) in Florida",
+      "Progress tracking shared with referring clinicians",
+      "Dedicated concussion and vestibular therapy tracks"
+    ],
+    "contactPhone": "(555) 267-4400",
+    "referralRequired": false,
+    "featured": false
+  }
+]
