@@ -143,7 +143,7 @@ export function EventsSearchClient({ events }: EventsSearchClientProps) {
             </h1>
             <p className="mt-4 max-w-3xl text-base text-slate-200">
               Search by topic, filter by location or format, and find the next opportunity to learn,
-              connect, or receive support from FictionalHealthCare experts.
+              connect, or receive support from Fictional HealthCare  experts.
             </p>
           </div>
           <div className="rounded-2xl bg-white/10 p-1">

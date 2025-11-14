@@ -30,13 +30,13 @@ export async function generateMetadata({
 
   if (!doctor) {
     return {
-      title: "Doctor Not Found | FictionalHealthCare",
+      title: "Doctor Not Found | Fictional HealthCare ",
       description: "We could not find the requested doctor profile.",
     };
   }
 
   return {
-    title: `${doctor.name} | FictionalHealthCare`,
+    title: `${doctor.name} | Fictional HealthCare `,
     description: `View ${doctor.name}'s profile, specialties, and appointment information.`,
   };
 }

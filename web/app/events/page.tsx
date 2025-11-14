@@ -7,9 +7,9 @@ import eventsData from "@/data/events.json";
 const events = eventsData as CommunityEvent[];
 
 export const metadata: Metadata = {
-  title: "Classes & Events | FictionalHealthCare",
+  title: "Classes & Events | Fictional HealthCare ",
   description:
-    "Search upcoming classes, support groups, and community events across FictionalHealthCare locations.",
+    "Search upcoming classes, support groups, and community events across Fictional HealthCare  locations.",
 };
 
 export default function EventsPage() {

@@ -118,7 +118,7 @@ export function LocationsSearchClient({ locations }: LocationsSearchClientProps)
               Locations Directory
             </p>
             <h1 className="text-3xl font-bold leading-tight sm:text-4xl">
-              Find care locations across FictionalHealthCare
+              Find care locations across Fictional HealthCare 
             </h1>
             <p className="text-base text-slate-200">
               Search hospitals, urgent care, specialty clinics, and outpatient centers. Filter by

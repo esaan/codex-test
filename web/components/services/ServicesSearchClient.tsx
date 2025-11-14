@@ -108,7 +108,7 @@ export function ServicesSearchClient({ services }: ServicesSearchClientProps) {
               Explore care programs by specialty, location, or delivery type
             </h1>
             <p className="text-base text-slate-200">
-              Rochester-style browsing with FictionalHealthCare flair: filter by care category, service
+              Rochester-style browsing with Fictional HealthCare  flair: filter by care category, service
               line, or region to find the right program fast.
             </p>
           </div>

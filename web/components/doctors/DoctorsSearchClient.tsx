@@ -134,7 +134,7 @@ export function DoctorsSearchClient({ doctors }: DoctorsSearchClientProps) {
             </p>
             <h1 className="text-3xl font-bold sm:text-4xl">Search Doctors & Specialists</h1>
             <p className="max-w-2xl text-sky-50">
-              Explore FictionalHealthCareproviders, filter by specialty, and quickly see who is
+              Explore Fictional HealthCare providers, filter by specialty, and quickly see who is
               accepting new patients or offers virtual visits.
             </p>
           </div>

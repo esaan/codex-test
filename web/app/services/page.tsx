@@ -7,9 +7,9 @@ import servicesData from "@/data/services.json";
 const services = servicesData as ServiceOffering[];
 
 export const metadata: Metadata = {
-  title: "Services | FictionalHealthCare",
+  title: "Services | Fictional HealthCare ",
   description:
-    "Browse FictionalHealthCare services, specialties, and programs with filters for care category, service line, and location.",
+    "Browse Fictional HealthCare  services, specialties, and programs with filters for care category, service line, and location.",
 };
 
 export default function ServicesPage() {

@@ -7,9 +7,9 @@ import locationsData from "@/data/locations.json";
 const locations = locationsData as LocationFacility[];
 
 export const metadata: Metadata = {
-  title: "Locations | FictionalHealthCare",
+  title: "Locations | Fictional HealthCare ",
   description:
-    "Search FictionalHealthCare hospitals, clinics, urgent care centers, and specialty facilities.",
+    "Search Fictional HealthCare  hospitals, clinics, urgent care centers, and specialty facilities.",
 };
 
 export default function LocationsPage() {

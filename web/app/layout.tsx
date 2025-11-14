@@ -17,19 +17,31 @@ export default function RootLayout({
       <body className="min-h-screen bg-slate-950 text-slate-100 antialiased">
         <header className="border-b border-slate-800 bg-slate-900/80 backdrop-blur">
           <nav className="mx-auto flex max-w-5xl items-center justify-between p-4">
-            <Link href="/" className="text-lg font-semibold tracking-tight">Codex Test</Link>
+            <Link href="/" className="text-lg font-semibold tracking-tight">Fictional HealthCare</Link>
             <div className="space-x-4 text-sm">
               <Link
-                href="/"
+                href="/about"
                 className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
               >
-                Home
-              </Link>
+                About
+              </Link>             
               <Link
                 href="/doctors"
                 className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
               >
                 Find A Provider
+              </Link>
+              <Link
+                href="/news"
+                className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
+              >
+                News & Articles
+              </Link>
+              <Link
+                href="/contact"
+                className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
+              >
+                Contact
               </Link>
               <Link
                 href="/services"
@@ -44,6 +56,12 @@ export default function RootLayout({
                 Locations
               </Link>
               <Link
+                href="/events"
+                className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
+              >
+                Events
+              </Link>
+              <Link
                 href="/blogs"
                 className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
               >
@@ -53,26 +71,14 @@ export default function RootLayout({
                 href="/jobs"
                 className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
               >
-                Jobs
-              </Link>
-              <Link
-                href="/events"
-                className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
-              >
-                Events
-              </Link>
-              <Link
-                href="/about"
-                className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
-              >
-                About
-              </Link>
-              <Link
+                Careers
+              </Link>             
+              {/* <Link
                 href="/api/hello"
                 className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
               >
                 API
-              </Link>
+              </Link> */}
             </div>
           </nav>
         </header>

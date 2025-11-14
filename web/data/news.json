@@ -1,0 +1,129 @@
+[
+  {
+    "id": "cardiac-robotics-expansion",
+    "title": "Fictional HealthCare  Expands Cardiac Robotics Program",
+    "summary": "New hybrid operating suites bring next-generation robotic precision to complex cardiac procedures.",
+    "category": "News",
+    "storyType": "News & Press Releases",
+    "tags": [
+      "Cardiology",
+      "Innovation"
+    ],
+    "author": "Communications Team",
+    "publishedAt": "2025-10-12T09:00:00-04:00",
+    "readTime": 4,
+    "featured": true,
+    "link": "/news/cardiac-robotics-expansion"
+  },
+  {
+    "id": "behavioral-health-hub",
+    "title": "Behavioral Health Hub Opens in Downtown Clearwater",
+    "summary": "Integrated therapy, psychiatry, and digital tools now available in one convenient location.",
+    "category": "News",
+    "storyType": "News & Press Releases",
+    "tags": [
+      "Behavioral Health",
+      "Community"
+    ],
+    "author": "Communications Team",
+    "publishedAt": "2025-09-28T08:30:00-04:00",
+    "readTime": 3,
+    "featured": false,
+    "link": "/news/behavioral-health-hub"
+  },
+  {
+    "id": "urgent-care-virtual",
+    "title": "Virtual Urgent Care Now Available Every Day",
+    "summary": "Patients can access same-day video visits for minor illnesses and prescriptions.",
+    "category": "Updates",
+    "storyType": "Service Updates",
+    "tags": [
+      "Urgent Care",
+      "Virtual Visits"
+    ],
+    "author": "Digital Care Team",
+    "publishedAt": "2025-09-10T07:45:00-04:00",
+    "readTime": 2,
+    "featured": false,
+    "link": "/news/virtual-urgent-care"
+  },
+  {
+    "id": "oncology-clinical-trial",
+    "title": "New Immunotherapy Trial Launches at Lakeview Cancer Center",
+    "summary": "Phase II study enrolls patients with advanced melanoma across the region.",
+    "category": "Research",
+    "storyType": "Clinical Trials",
+    "tags": [
+      "Oncology",
+      "Research"
+    ],
+    "author": "Research Institute",
+    "publishedAt": "2025-08-25T11:00:00-04:00",
+    "readTime": 5,
+    "featured": true,
+    "link": "/news/immunotherapy-trial"
+  },
+  {
+    "id": "maternity-award",
+    "title": "Women's & Maternity Program Earns National Recognition",
+    "summary": "Magnet designation awarded for nursing excellence in perinatal services.",
+    "category": "Awards",
+    "storyType": "News & Press Releases",
+    "tags": [
+      "Maternity",
+      "Awards"
+    ],
+    "author": "Nursing Excellence Office",
+    "publishedAt": "2025-08-05T10:15:00-04:00",
+    "readTime": 3,
+    "featured": false,
+    "link": "/news/maternity-award"
+  },
+  {
+    "id": "community-screenings",
+    "title": "Free Community Screenings Offered Throughout November",
+    "summary": "Mobile health teams providing glucose, blood pressure, and flu shots at neighborhood events.",
+    "category": "Community",
+    "storyType": "Community Programs",
+    "tags": [
+      "Community",
+      "Prevention"
+    ],
+    "author": "Community Health",
+    "publishedAt": "2025-10-01T06:30:00-04:00",
+    "readTime": 2,
+    "featured": false,
+    "link": "/news/community-screenings"
+  },
+  {
+    "id": "neuroscience-merger",
+    "title": "Neuroscience Collaboration Brings Expanded Spine Services",
+    "summary": "Partnership with regional spine surgeons adds advanced minimally invasive options.",
+    "category": "News",
+    "storyType": "News & Press Releases",
+    "tags": [
+      "Neuroscience",
+      "Partnerships"
+    ],
+    "author": "Corporate Affairs",
+    "publishedAt": "2025-09-02T13:20:00-04:00",
+    "readTime": 4,
+    "featured": false,
+    "link": "/news/neuroscience-merger"
+  },
+  {
+    "id": "sustainability-report",
+    "title": "Sustainability Report Highlights Energy Savings Milestones",
+    "summary": "System reduced emissions 18% year-over-year through solar and efficiency projects.",
+    "category": "Sustainability",
+    "storyType": "News & Press Releases",
+    "tags": [
+      "Sustainability"
+    ],
+    "author": "Facilities & Operations",
+    "publishedAt": "2025-07-15T09:10:00-04:00",
+    "readTime": 4,
+    "featured": false,
+    "link": "/news/sustainability-report"
+  }
+]
