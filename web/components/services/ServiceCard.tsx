@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import type { ServiceOffering } from "./types";
+import paths from "@/paths";
 
 interface ServiceCardProps {
   service: ServiceOffering;
@@ -96,7 +97,7 @@ export function ServiceCard({ service }: ServiceCardProps) {
             Request appointment
           </button>
           <Link
-            href="/doctors"
+            href={paths.DoctorsPage()}
             className="rounded-full border border-slate-200 px-4 py-2 text-center text-sm font-semibold text-slate-700 transition hover:border-slate-300 hover:bg-white"
           >
             See providers

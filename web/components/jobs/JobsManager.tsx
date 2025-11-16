@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import JobsExplorer from "@/components/jobs/JobsExplorer";
 import type { Job } from "@/lib/types";
+import paths from "@/paths";
 
 type JobInput = {
   title: string;
@@ -52,7 +53,7 @@ export default function JobsManager() {
     let alive = true;
     (async () => {
       try {
-        const res = await fetch("/api/jobs", { cache: "no-store" });
+        const res = await fetch(paths.ApiJobs(), { cache: "no-store" });
         if (!res.ok) throw new Error(`Failed to load jobs (${res.status})`);
         const data = (await res.json()) as Job[];
         if (alive) setJobs(data);
@@ -90,7 +91,7 @@ export default function JobsManager() {
     if (!confirm("Delete this job? This cannot be undone.")) return;
     const prev = jobs;
     setJobs(prev.filter((j) => j.id !== id));
-    const res = await fetch(`/api/jobs/${id}`, { method: "DELETE", headers: { ...authHeaders } });
+    const res = await fetch(paths.ApiJob(id), { method: "DELETE", headers: { ...authHeaders } });
     if (!res.ok) {
       // revert on failure
       setJobs(prev);
@@ -145,7 +146,7 @@ export default function JobsManager() {
       jobs.map((j) => (j.id === editing.id ? { ...j, ...patch } : j))
     );
     try {
-      const res = await fetch(`/api/jobs/${editing.id}`, {
+      const res = await fetch(paths.ApiJob(editing.id), {
         method: "PATCH",
         headers: { "Content-Type": "application/json", ...authHeaders },
         body: JSON.stringify(patch),
@@ -198,7 +199,7 @@ export default function JobsManager() {
     const prev = jobs;
     setJobs([optimistic, ...jobs]);
     try {
-      const res = await fetch("/api/jobs", {
+      const res = await fetch(paths.ApiJobs(), {
         method: "POST",
         headers: { "Content-Type": "application/json", ...authHeaders },
         body: JSON.stringify({ ...optimistic, id: undefined }),

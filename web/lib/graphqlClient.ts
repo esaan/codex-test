@@ -1,9 +1,11 @@
+import paths from "@/paths";
+
 export type GQLError = { message: string };
 
 export async function gql<T = any>(query: string, variables?: Record<string, any>, opts?: { adminToken?: string }) {
   const headers: Record<string, string> = { 'Content-Type': 'application/json', 'Accept': 'application/json' };
   if (opts?.adminToken) headers['x-admin-token'] = opts.adminToken;
-  const res = await fetch('/api/graphql', {
+  const res = await fetch(paths.ApiGraphqlEndpoint(), {
     method: 'POST',
     headers,
     body: JSON.stringify({ query, variables }),

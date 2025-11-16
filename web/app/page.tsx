@@ -1,3 +1,5 @@
+import paths from "@/paths";
+
 export default function Home() {
   return (
     <main className="min-h-screen flex items-center justify-center">
@@ -7,10 +9,10 @@ export default function Home() {
           App Router, TypeScript, Tailwind — ready to go.
         </p>
         <div className="space-x-4">
-          <a className="text-blue-600 underline" href="/api/hello">
+          <a className="text-blue-600 underline" href={paths.ApiHelloRoute()}>
             API Route example
           </a>
-          <a className="text-blue-600 underline" href="/jobs">
+          <a className="text-blue-600 underline" href={paths.JobsPage()}>
             Sitecore XM Cloud Jobs
           </a>
         </div>

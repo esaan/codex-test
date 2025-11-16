@@ -5,6 +5,7 @@ import Link from "next/link";
 import { gql } from "@/lib/graphqlClient";
 import BlogRatingBadge from "@/components/blogs/BlogRatingBadge";
 import type { Blog } from "@/lib/types";
+import paths from "@/paths";
 
 type BlogInput = {
   title: string;
@@ -309,7 +310,7 @@ export default function BlogsManager() {
               <div className="flex items-center justify-between gap-3">
                 <div>
                   <h3 className="text-lg font-semibold">
-                    <Link href={`/blogs/${b.slug}`}>{b.title}</Link>
+                    <Link href={paths.BlogPostPage(b.slug)}>{b.title}</Link>
                     <BlogRatingBadge blogId={b.id} />
                   </h3>
                   <p className="text-xs text-slate-500 dark:text-slate-400">{`Published ${formatDate(b.publishedAt)}`}{b.updatedAt ? ` \u2022 Updated ${formatDate(b.updatedAt)}` : ''}{b.author ? ` \u2022 ${b.author}` : ''}</p>
@@ -322,7 +323,7 @@ export default function BlogsManager() {
                   )}
                 </div>
                 <div className="shrink-0 space-x-2">
-                  <Link href={`/blogs/${b.slug}`} className="text-sm text-blue-600 hover:underline">View</Link>
+                  <Link href={paths.BlogPostPage(b.slug)} className="text-sm text-blue-600 hover:underline">View</Link>
                   <button onClick={() => onEdit(b)} className="text-sm text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white">Edit</button>
                   <button onClick={() => onDelete(b.id)} className="text-sm text-red-600 hover:text-red-700">Delete</button>
                 </div>

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import Link from 'next/link';
+import paths from '@/paths';
 
 export const metadata: Metadata = {
   title: 'Codex Test',
@@ -17,70 +18,70 @@ export default function RootLayout({
       <body className="min-h-screen bg-slate-950 text-slate-100 antialiased">
         <header className="border-b border-slate-800 bg-slate-900/80 backdrop-blur">
           <nav className="mx-auto flex max-w-5xl items-center justify-between p-4">
-            <Link href="/" className="text-lg font-semibold tracking-tight">Fictional HealthCare</Link>
+            <Link href={paths.HomePage()} className="text-lg font-semibold tracking-tight">Fictional HealthCare</Link>
             <div className="space-x-4 text-sm">
               <Link
-                href="/about"
+                href={paths.AboutPage()}
                 className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
               >
                 About
               </Link>             
               <Link
-                href="/doctors"
+                href={paths.DoctorsPage()}
                 className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
               >
                 Find A Provider
               </Link>
               <Link
-                href="/news"
+                href={paths.NewsPage()}
                 className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
               >
                 News & Articles
               </Link>
               <Link
-                href="/email-marketing"
+                href={paths.EmailMarketingPage()}
                 className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
               >
                 Email Marketing
               </Link>
               <Link
-                href="/contact"
+                href={paths.ContactPage()}
                 className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
               >
                 Contact
               </Link>
               <Link
-                href="/services"
+                href={paths.ServicesPage()}
                 className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
               >
                 Services
               </Link>
               <Link
-                href="/locations"
+                href={paths.LocationsPage()}
                 className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
               >
                 Locations
               </Link>
               <Link
-                href="/events"
+                href={paths.EventsPage()}
                 className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
               >
                 Events
               </Link>
               <Link
-                href="/blogs"
+                href={paths.BlogsPage()}
                 className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
               >
                 Blogs
               </Link>
               <Link
-                href="/jobs"
+                href={paths.JobsPage()}
                 className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
               >
                 Careers
               </Link>             
               {/* <Link
-                href="/api/hello"
+                href={paths.ApiHelloRoute()}
                 className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
               >
                 API

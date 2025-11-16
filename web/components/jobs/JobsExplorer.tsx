@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import type { Job } from "@/lib/types";
+import paths from "@/paths";
 
 type Props = {
   jobs: Job[];
@@ -230,7 +231,7 @@ export default function JobsExplorer({ jobs, actions }: Props & { actions?: Acti
 
               <div className="mt-4">
                 <Link
-                  href={`/jobs/${j.id}`}
+                  href={paths.JobDetailsPage(j.id)}
                   className="inline-flex items-center gap-1 rounded-lg bg-blue-600 px-3 py-1.5 text-sm font-medium text-white shadow-sm transition hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-700"
                 >
                   View details

@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getJob } from '@/lib/jobsStore';
+import paths from '@/paths';
 
 type Params = {
   params: { id: string };
@@ -26,7 +27,7 @@ export default async function JobDetailsPage({ params }: Params) {
     <main className="mx-auto max-w-3xl px-4 py-10">
       <div className="mb-6">
         <Link
-          href="/jobs"
+          href={paths.JobsPage()}
           className="text-sm text-slate-600 underline hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
         >
           ← Back to jobs
@@ -86,4 +87,3 @@ export default async function JobDetailsPage({ params }: Params) {
     </main>
   );
 }
-

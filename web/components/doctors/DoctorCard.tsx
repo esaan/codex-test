@@ -2,6 +2,7 @@
 import Link from "next/link";
 
 import type { Doctor } from "./types";
+import paths from "@/paths";
 
 interface DoctorCardProps {
   doctor: Doctor;
@@ -85,7 +86,7 @@ export function DoctorCard({ doctor }: DoctorCardProps) {
         </a>
         <div className="flex flex-wrap gap-2">
           <Link
-            href={`/doctors/${doctor.id}`}
+            href={paths.DoctorProfilePage(doctor.id)}
             className="rounded-full border border-sky-200 px-4 py-2 text-sm font-semibold text-sky-700 transition hover:border-sky-300 hover:bg-sky-50"
           >
             View Profile

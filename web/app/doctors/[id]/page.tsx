@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 
 import type { Doctor } from "@/components/doctors/types";
 import doctorsData from "@/data/doctors.json";
+import paths from "@/paths";
 
 const doctors = doctorsData as Doctor[];
 
@@ -59,7 +60,7 @@ export default async function DoctorProfilePage({
     <main className="bg-slate-50 py-10">
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
         <Link
-          href="/doctors"
+          href={paths.DoctorsPage()}
           className="inline-flex items-center text-sm font-semibold text-sky-700 transition hover:text-sky-900"
         >
           Back to doctor search
