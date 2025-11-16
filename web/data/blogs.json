@@ -1,5 +1,16 @@
 [
   {
+    "id": "ef3c8cbd-3565-4964-a019-3a912508bc41",
+    "title": "Test Production readiness",
+    "slug": "test-production-readiness",
+    "content": "Testing the blogs for production mode and see if they work without any error.",
+    "publishedAt": "2025-11-16T19:15:00.000Z",
+    "tags": [
+      "Test"
+    ],
+    "author": "Santosh"
+  },
+  {
     "id": "a18405b4-5971-41d0-b9cd-30cb2c584b4b",
     "title": "new blog",
     "slug": "new-blog",
