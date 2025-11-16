@@ -3,8 +3,8 @@ import { notFound } from 'next/navigation';
 import { getJob } from '@/lib/jobsStore';
 import paths from '@/paths';
 
-type Params = {
-  params: { id: string };
+type Props = {
+  params: Promise<{ id: string }>;
 };
 
 function formatDate(iso: string) {
@@ -19,8 +19,9 @@ function formatDate(iso: string) {
   }
 }
 
-export default async function JobDetailsPage({ params }: Params) {
-  const job = await getJob(params.id);
+export default async function JobDetailsPage({ params }: Props) {
+  const { id } = await params;
+  const job = await getJob(id);
   if (!job) return notFound();
 
   return (
