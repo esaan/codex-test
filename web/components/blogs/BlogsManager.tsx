@@ -6,6 +6,7 @@ import { gql } from "@/lib/graphqlClient";
 import BlogRatingBadge from "@/components/blogs/BlogRatingBadge";
 import type { Blog } from "@/lib/types";
 import paths from "@/paths";
+import FormButton from "@/components/common/form-button";
 
 type BlogInput = {
   title: string;
@@ -264,13 +265,9 @@ export default function BlogsManager() {
             />
           </div>
           <div className="mt-4 flex items-center gap-3">
-            <button
-              type="submit"
-              disabled={saving || !canSubmitAdd}
-              className="rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700 disabled:opacity-50"
-            >
+            <FormButton isLoading={saving} disabled={!canSubmitAdd}>
               {saving ? 'Saving...' : 'Create post'}
-            </button>
+            </FormButton>
             <button type="button" onClick={resetAdd} className="text-sm text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white">Cancel</button>
           </div>
         </form>
@@ -292,7 +289,9 @@ export default function BlogsManager() {
             <textarea required value={editForm.content} onChange={(e) => setEditForm({ ...editForm, content: e.target.value })} placeholder="Content" rows={10} className="w-full rounded-lg border px-3 py-2 text-sm dark:border-slate-700 dark:bg-slate-800 sm:col-span-2" />
           </div>
           <div className="mt-4 flex items-center gap-3">
-            <button type="submit" disabled={saving || !canSubmitEdit} className="rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700 disabled:opacity-50">{saving ? 'Saving...' : 'Save changes'}</button>
+            <FormButton isLoading={saving} disabled={!canSubmitEdit}>
+              {saving ? 'Saving...' : 'Save changes'}
+            </FormButton>
             <button type="button" onClick={() => setEditing(null)} className="text-sm text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white">Cancel</button>
           </div>
         </form>

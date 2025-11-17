@@ -14,5 +14,21 @@
     "comment": "good one.",
     "author": "user1",
     "createdAt": "2025-11-10T21:41:16.430Z"
+  },
+  {
+    "id": "ed8b212a-83aa-433c-905c-a8abc7b43d48",
+    "blogId": "ef3c8cbd-3565-4964-a019-3a912508bc41",
+    "rating": 5,
+    "comment": "Very Good!",
+    "author": "Santosh",
+    "createdAt": "2025-11-17T00:25:38.535Z"
+  },
+  {
+    "id": "2cfaf019-646c-4aa6-8999-d0f4b8e07033",
+    "blogId": "47c75885-be7f-443b-903b-9f0b3a9b259f",
+    "rating": 5,
+    "comment": "Good to know!",
+    "author": "Santosh",
+    "createdAt": "2025-11-17T00:26:21.881Z"
   }
 ]
